@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Formulari Bootstrap</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="css/estilos.css" />
+  </head>
+  <body>
+    <a href="index.html"> Volver</a>
+    <a href="wallapop.html" class="derecha"> Wallapop</a>
+    <h1 class="titulo_form">Formularis Bootstrap</h1>
+
+    <form>
+      <div class="form-group row">
+        <label
+          for="nombre"
+          id="text_nombre"
+          class="col-sm-2 col-lg-1 col-form-label"
+          >Nombre</label
+        >
+        <div class="col-sm-10 col-lg-11">
+          <input
+            class="form-control"
+            type="nombre"
+            placeholder="Nombre"
+            id="nombre"
+          />
+        </div>
+      </div>
+      <div class="form-group row">
+        <label
+          for="apellido"
+          id="text_apellido"
+          class="col-sm-2 col-lg-1 col-form-label"
+          >Apellidos</label
+        >
+        <div class="col-sm-10 col-lg-11">
+          <input
+            class="form-control"
+            type="apellido"
+            placeholder="Apellidos"
+            id="apellido"
+          />
+        </div>
+      </div>
+      <div class="form-group row">
+        <label
+          for="direccion"
+          id="text_dire"
+          class="col-sm-2 col-lg-1 col-form-label"
+          >Direccion</label
+        >
+        <div class="col-sm-10 col-lg-11">
+          <input
+            class="form-control"
+            type="direccion"
+            placeholder="Direccion"
+            id="direccion"
+          />
+        </div>
+      </div>
+      <div class="form-group row">
+        <label
+          for="poblacion"
+          id="text_pob"
+          class="col-sm-2 col-lg-1 col-form-label"
+          >Poblacion</label
+        >
+        <div class="col-sm-4 col-lg-5">
+          <input
+            class="form-control"
+            type="poblacion"
+            placeholder="Poblacion"
+            id="poblacion"
+          />
+        </div>
+        <label for="cp" id="text_cp" class="col-sm-2 col-lg-1 col-form-label"
+          >Codi Postal</label
+        >
+        <div class="col-sm-4 col-lg-5">
+          <input
+            class="form-control"
+            type="cp"
+            placeholder="Codi Postal"
+            id="cp"
+          />
+        </div>
+      </div>
+      <fieldset class="form-group row borde">
+        <div class="col-md-6">
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="gridRadios"
+              id="gridRadios1"
+              value="option1"
+            />
+            <label class="form-check-label" for="gridRadios1">
+              Menos de 25 años
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="gridRadios"
+              id="gridRadios2"
+              value="option2"
+            />
+            <label class="form-check-label" for="gridRadios2">
+              26 a 40 años
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="gridRadios"
+              id="gridRadios3"
+              value="option3"
+              checked
+            />
+            <label class="form-check-label" for="gridRadios3">
+              41 a 65 años
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="gridRadios"
+              id="gridRadios4"
+              value="option4"
+            />
+            <label class="form-check-label" for="gridRadios4">
+              Más de 66 años
+            </label>
+          </div>
+        </div>
+        <div class="col-5">
+          <div class="form-group row">
+            <label for="inputState" class="col-10" id="text_telf">Telefon Movil</label
+            >
+            <div class="col-6 listatelf">
+              <select id="inputState text_telf" class="form-control">
+                <option selected>No tiene</option>
+                <option>Android</option>
+                <option>Iphone</option>
+                <option>Otros....</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputState" class="col-7" id="text_telf">Vehiculo</label>
+            <div class="col-6">
+              <select id="inputState text_telf" class="form-control">
+                <option selected>No tiene</option>
+                <option>Bici</option>
+                <option>Moto</option>
+                <option>Coche</option>
+                <option>Varios</option>
+                <option>Otros..</option>
+              </select>
+            </div>
+        </div>
+      </fieldset>
+    </form>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
